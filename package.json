@@ -1,0 +1,37 @@
+{
+  "name": "gbook-markdown",
+  "version": "1.0.0",
+  "description": "这个节点模块使用kramed解析gbook（SUMMARY.md，README.md）的标记。",
+  "main": "lib/index.js",
+  "dependencies": {
+    "lodash": "^4.13.1",
+    "kramed": "0.5.6",
+    "kramed-text-renderer": "0.2.1",
+    "gbook-html": "1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.5.3"
+  },
+  "scripts": {
+    "test": "export TESTING=true; mocha --reporter list --bail"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/54dxs/gbook-markdown.git"
+  },
+  "author": {
+    "name": "54大学生",
+    "email": "374452668@qq.com"
+  },
+  "contributors": [
+    {
+      "name": "深情小建",
+      "email": "374452668@qq.com"
+    }
+  ],
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/54dxs/gbook-markdown/issues"
+  },
+  "homepage": "https://github.com/54dxs/gbook-markdown#readme"
+}
